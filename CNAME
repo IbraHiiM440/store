@@ -1,1 +1,520 @@
 www.clothin-store.com
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LOGO Store</title>
+        <link href="store.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+        <link href="/fontawesome-free-6.1.2-web/fontawesome-free-6.1.2-web/css/all.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Jeans</h1>
+            <div class="icons">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-bag-shopping"></i>
+            </div>
+        </header>
+        <aside>
+            <h2>LOGO</h2>
+            <div class="bar-container">
+                <div class="clothes">
+                    <ul>
+                        <li>Shirts</li>
+                        <li>Dresses</li>
+                        <li>Jeans</li>
+                        <li>Jackets</li>
+                        <li>Gymwear</li>
+                        <li>Blazers</li>
+                        <li>Shoes</li>
+                    </ul>
+                </div>
+                <div class="clothes-contact">
+                    <ul>
+                        <li>Contact</li>
+                        <li>Newsletter</li>
+                        <li>Subscribe</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <main>
+            <section class="a">
+                <div class="arrivals-pic">
+                    <div class="img">
+                        <img src="https://www.w3schools.com/w3images/jeans.jpg">
+                    </div>
+                    <div class="arrivals">
+                        <h2>New arrivals</h2>
+                        <p>Collection 2016</p>
+                        <button>Shop Now</button>
+                    </div>
+                </div>
+            </section>
+            <section class="b">
+                <div class="it">
+                    <h5>8 items</h5>
+                </div>
+                <div class="jeans-container">
+                    <div class="jeans-top-row">
+                        <div>
+                            <img src="https://www.w3schools.com/w3images/jeans1.jpg">
+                            <h3>Ripped Skinny Jeans</h3>
+                            <p class="price">$24.99</p>
+                        </div>
+                        <div class="hover">
+                            <div class="new">
+                                <p>NEW</p>
+                                <button> Shop now</button>
+                            </div>
+                            <img src="https://www.w3schools.com/w3images/jeans2.jpg">
+                            <h3>Mega Ripped Jeans</h3>
+                            <p class="price">$19.99</p>
+                        </div>
+                        <div>
+                            <img src="https://www.w3schools.com/w3images/jeans3.jpg">
+                            <h3>Washed Skinny Jeans</h3>
+                            <p class="price">$20.50</p>
+                        </div>
+                        <div>
+                            <img src="https://www.w3schools.com/w3images/jeans4.jpg">
+                            <h3>Vintage Skinny Jeans</h3>
+                            <p class="price">$14.99</p>
+                        </div>
+                    </div>
+                    <div class="jeans-bottom-row">
+                        <div>
+                            <img src="https://www.w3schools.com/w3images/jeans2.jpg">
+                            <h3>Mega Ripped Jeans</h3>
+                            <p class="price">$19.99</p>
+                        </div>
+                        <div>
+                            <img src="https://www.w3schools.com/w3images/jeans3.jpg">
+                            <h3>Washed Skinny Jeans</h3>
+                            <p class="price">$20.50</p>
+                        </div>
+                        <div class="hover">
+                            <div class="new">
+                                <p>NEW</p>
+                                <button> Shop now</button>
+                            </div>
+                            <img src="https://www.w3schools.com/w3images/jeans4.jpg">
+                            <h3>Vintage Skinny Jeans</h3>
+                            <p class="price">$14.99</p>
+                        </div>
+                        <div> <img src="https://www.w3schools.com/w3images/jeans1.jpg">
+                            <h3>Ripped Skinny Jeans</h3>
+                            <p class="price">$24.99</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="c">
+                <div class="subscribe">
+                        <h2>Subscribe</h2>
+                        <p>To get special offers and VIP treatment</p>
+                        <input type="email" placeholder="Enter e-mail">
+                        <button>Subscribe</button>
+                </div>
+            </section>
+            <section class="d">
+                <div class="abt">
+                <div class="form">
+                    <form>
+                        <h2>Contact</h2>
+                        <p>Questions? Go ahead.</p>
+                        <input type="text" name="name" placeholder="Name">
+                        <input type="email" name="email" placeholder="Email">
+                        <input type="text" name="subject" placeholder="Subject">
+                        <input type="text" name="message" placeholder="Message">
+                        <input type="submit" name="submit" value="Send" class="send-btn">
+                    </form>
+                </div>
+                <div class="about">
+                    <h2>About</h2>
+                    <ul>
+                        <li><a>About us</a></li>
+                        <li><a>We-re hiring</a></li>
+                        <li><a>Support</a></li>
+                        <li><a>Find store</a></li>
+                        <li><a>Shipment</a></li>
+                        <li><a>Payment</a></li>
+                        <li><a>Gift card</a></li>
+                        <li><a>Return</a></li>
+                        <li><a>Help</a></li>
+                    </ul>
+                </div>
+                <div class="store">
+                    <h2>Store</h2>
+                    <ul>
+                        <li><i class="fa-solid fa-location-dot"></i>Company Name</li>
+                        <li><i class="fa-solid fa-phone"></i>0044123123</li>
+                        <li><i class="fa-solid fa-envelope"></i>ex@mail.com</li>
+                    </ul>
+                    <h3>We accept</h3>
+                    <ul>
+                        <li><i class="fa-brands fa-cc-amex"></i>Amex</li>
+                        <li><i class="fa-solid fa-credit-card"></i>Credit Card</li>
+                    </ul>
+                </div>
+                </div>
+            </section>
+            <footer>
+                <h2>made by ibrahim</h2>
+            </footer>
+        </main>
+    </body>
+</html>
+body{
+    font-family: 'Space Mono', monospace;
+    margin: 0;
+    height: 100vh;
+    overflow-y: scroll;
+}
+header{
+    width: 70%;
+    position: relative;
+    left: 260px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    margin-left: 15px;
+}
+header h1{
+ align-items: center;
+ width: 90%;
+ font-weight: 200;
+ font-size: 26px;
+ padding-top: 15px;
+}
+.icons{
+    font-size: 30px;
+    word-spacing: 15px;
+}
+aside{
+    height: 100vh;
+    width: 250px;
+    position: fixed;
+    top: -0px;
+    text-align: left;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+aside h2{
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.bar-container{
+    margin-top: 100px;
+}
+.clothes{
+    text-align: left;
+    margin-bottom: 80px;
+}
+.clothes ul{
+    margin-left: 48px;
+    list-style: none;
+    line-height: 2.5;
+    font-weight: 600;
+    color: rgb(68, 34, 34);
+    width: 100px;
+    border-radius: 5px;
+}
+.clothes li:hover{
+    background-color: rgb(68, 34, 34);
+    color: beige;
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: 250ms ease-out 40ms;
+
+}
+.clothes li:active{
+    transform: translateY(2px);
+
+}
+
+.clothes-contact{
+    margin-top: 50px;
+}
+.clothes-contact ul{
+    margin-left: 48px;
+    list-style: none;
+    font-weight: 400;
+    line-height: 2;
+    width: 100px;
+    color: rgb(68, 34, 34);
+}
+.clothes-contact li:hover{
+  background-color: rgb(68, 34, 34);
+  color: beige;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 250ms ease-out 40ms; 
+}
+.clothes-contact li:active{
+    transform: translateY(2px);
+}
+main{
+    margin-left: 260px;
+    width: 70%;
+    height: 100%
+}
+.a{
+    margin-left: 5px;
+    height: 30%;
+
+}
+
+.img img{
+    width: 1000px;
+}
+.arrivals{
+    position: relative;
+    left: 40px;
+    top: -640px;
+}
+.arrivals h2{
+    color: white;
+    font-size: 56px;
+    font-weight: 500;
+}
+.arrivals p{
+    color: white;
+    font-size: 40px;
+    position: relative;
+    top: -35px;
+}
+.arrivals button{
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 60px;
+    font-size: 30px;
+    font-weight: 300;
+    border-radius: 15px;
+}
+.arrivals button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: 300ms ease-in-out 20ms;
+}
+.arrivals button:active{
+    transform: translateY(3px);
+}
+.b{
+    margin-left: 10px;
+    margin-top: 30px;
+    position: relative;
+    top: 420px;
+
+}
+.it{
+    position: relative;
+    color: gray;
+    opacity: 0.4;
+}
+.jeans-container{
+    display: grid;
+    margin-left: 15px;
+}
+.jeans-top-row{
+    display: grid;
+    grid-template-columns: 240px 240px 240px 240px;
+    gap: 10px;
+    position: relative;
+    left: -20px;
+}
+.jeans-top-row img{
+    height: 300px;
+    width: 225px;
+}
+.jeans-bottom-row{
+    display: grid;
+    grid-template-columns: 240px 240px 240px 240px;
+    gap: 10px;
+    position: relative;
+    left: -20px;
+}
+.jeans-bottom-row img{
+    height: 300px;
+    width: 225px;
+}
+.jeans-container img{
+    filter: saturate(0.3);
+}
+.new{
+    position: absolute;
+    z-index: 1;
+}
+.new p{
+    background-color: black;
+    color: white;
+    width: 45px;
+    text-align: center;
+    position: relative;
+    top: -16px;
+}
+.new button{
+    background-color: black;
+    width: 90px;
+    height: 50px;
+    font-size: 16px;
+    color: white;
+    position: relative;
+    top: 40px;
+    left: 60px;
+    border-radius: 8px;
+}
+.new button:hover{
+    background-color: gray;
+    color: beige;
+    transition: 250ms ease-in 30ms;
+    border-color: gray;
+    cursor: pointer;
+}
+.jeans-container h3{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.price{
+    margin-top: 0;
+}
+.c{
+    position: relative;
+    top: 420px;
+    background-color: black;
+    height: 250px;
+    margin-left: 10px;
+    z-index: 1;
+}
+.subscribe{
+    margin-left: 20px;
+}
+.subscribe h2{
+    padding-top: 20px;
+    font-size: 45px;
+    color: beige;
+}
+.subscribe p{
+    margin-top: -30px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.subscribe input{
+    height: 35px;
+    display: block;
+    width: 80%;
+}
+.subscribe button{
+    height: 50px;
+    width: 110px;
+    font-size: 20px;
+    background-color: rgb(243, 95, 95);
+    border: 1px solid rgb(243, 95, 95);
+    border-radius: 10px;
+    color: beige;
+    margin-top: 15px;
+}
+.subscribe button:hover{
+    background-color: beige;
+    color: rgb(243, 95, 95);
+    transition: 300ms ease-in 20ms;
+    cursor: pointer;
+}
+.d{
+    position: relative;
+    top: 380px;
+    margin-left: 10px;
+    background-color: rgb(231, 226, 226);
+    display: flex;
+    padding-bottom: 15px;
+}
+.abt {
+    margin-top: 80px;
+    margin-left: 60px;
+    display: flex;
+}
+.form{
+   
+    width: 300px;
+}
+.form h2{
+    position: relative;
+    left: 60px;
+}
+.form p{
+    margin-top: -20px;
+    position: relative;
+    left: 32px;
+    font-size: 15px;
+}
+.form input{
+    display: block;
+    margin-top: 20px;
+    height: 30px;
+    width: 280px;
+    position: relative;
+    left: -40px;
+}
+.send-btn{
+    background-color: black;
+    color: beige;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 18px;
+
+}
+.send-btn:hover{
+    background-color: rgb(85, 66, 66);
+    color: black;
+    cursor: pointer;
+    transition: 250ms ease-in 20ms;
+}
+.about{
+    margin-left: 20px;
+    text-align: center;
+}
+.about h2{
+    position: relative;
+    left: 15px;
+}
+.about li{
+    list-style-type: none;
+    color: rgb(48, 14, 14);
+    width: 250px;
+}
+.store h2{
+    position: relative;
+    left: 50px;
+}
+.store li{
+    list-style: none;   
+    padding-top: 10px;
+}
+.store h3{
+    position: relative;
+    left: 50px;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+footer{
+    background-color: black;
+    color: beige;
+    position: relative;
+    top: 350px;
+    margin-left: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+   
+}
+footer h2{
+    position: relative;
+    top: 25px;
+}
+
